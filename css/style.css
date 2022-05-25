@@ -1,0 +1,36 @@
+p {
+    /* Changer la couleur du text */
+    color: red;
+  
+    /* Changer la couleur du background */
+    background-color: lightgray;
+  
+    /* Mettre le text en italic */
+    font-style: italic;
+  
+    /* Modifier la taille du text */
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  .bcptxt {
+    color: green;
+  }
+  
+  /* #para {
+    color: brown;
+  } */
+  
+  .para-2 {
+    border: 5px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }

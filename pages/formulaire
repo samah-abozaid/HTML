@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Formulaire</title>
+</head>
+<body>
+    <form> 
+        <label for="nom">Nom : </label><input name="nom" type="text" id="nom" placeholder="Ex : Lisangola" /><br/>
+        <label for="prenom">Prénom : </label><input name="prenom" type="text" id="prenom" placeholder="Ex : Christian" /><br/>
+        <label for="lieuNaissance">Lieu de naissance : </label><input name="lieuNaissance" type="text" id="lieuNaissance" placeholder="Ex : Paris" /><br/>
+        <label for="dateNaissance">Date de Naissance : </label><input name="dateNaissance" type="date" id="dateNaissance"/><br/>
+        <label for="paysOrigine">Pays d'origine : </label>
+        <select>
+            <option value="uk">Ukraine</option>
+            <option value="fr">France</option>
+            <option value="de">Allemagne</option>
+            <option value="se">Suède</option>
+            <option value="fi">Finland</option>
+            <option value="no">Norvège</option>
+        </select><br/><br/>
+
+        <label for="civilite">Civiltié : </label> 
+        <p>Mr.<input name="active" type="radio" id= "Mr" /></p> 
+        <p>Mme.<input name="active" type="radio" id= "Mme" /></p><br/>
+        
+        <label for="moyenneBac">Moyenne obtenue au bac : </label><input name="moyenneBac" type="number" id="moyenneBac" placeholder="Ex : 15"/><br/>
+
+        <label for="formation">Formation : </label><input name="formation" type="text" id="formation" placeholder="Ex : Formation C# avancée" /><br/>
+
+        <label for="autreFormation">Autres formation : </label>
+        <select>
+            <option value="jk">Java</option>
+            <option value="php">PHP</option>
+            <option value="r">R</option>
+            <option value="c#">C#</option>
+            <option value="c++">C++</option>
+            <option value="c">C</option>
+        </select><br/>
+
+        
+
+        <label for="email">Email : </label><input name="email" type="email" id="email" placeholder="Ex : exemple@abc.fr"/><br/>
+
+        <label for="telelphone">Numéro de téléphone : </label><input name="telephone" type="number" id="telelphone" placeholder="Ex : 0240547140" /><br/>
+
+        <label for="coverLetter">Lettre de motivation :</label>
+        <textarea name="coverLetter" id="coverLetter" placeHolder="Ex : Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae natus autem velit excepturi expedita sunt, 
+        laborum reiciendis, saepe ex commodi consequuntur quae? Deserunt ipsum quasi aliquam praesentium ratione animi! "></textarea><br/>
+
+        <input type="submit" value="Envoyer mon formulaire !">
+
+    </form>
+
+    <a href="/">Accéder à l'index</a><br/>
+    <a href="tableaux.html">Accéder aux tableaux</a><br/>
+    <a href="formulaire.html">Accéder au formulaire</a>
+    
+    
+</body>
+</html>
